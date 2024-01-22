@@ -1,7 +1,7 @@
 (() => {
   // ns-params:@params
   var baseURL = "/";
-  var params = { blogroll: [{ name: "\u9A6D\u98CE\u7B14\u8BB0", url: "https://yufengbiji.com/" }], defaultcover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg", email: "zalepik@outlook.com", showcopyright: true, showmore: true, showrss: true, socialmedia: [{ name: "Dribbble", url: "https://www.dribbble.com/zalepik" }, { name: "Behance", url: "https://www.behance.net/zalepik" }, { name: "Instagram", url: "https://www.instagram.com/zalepik_studio/" }, { name: "Whatsapp", url: "https://wa.me/6285720075826?text=Assalamu%27alaikum...%0A%0A%F0%9F%91%8BHalo...%20Saya%20ingin%20memesan%20jasa%20pembuatan%20website%0A%0A" }], telephone: "+6285720075826" };
+  var params = { defaultcover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg", email: "zalepik@outlook.com", showcopyright: true, showmore: true, showrss: true, socialmedia: [{ name: "Instagram", url: "https://www.instagram.com/samira_travel/" }, { name: "Whatsapp", url: "https://api.whatsapp.com/send?phone=6281377886689&text=Assalamu%27alaikum.%20Perkenalkan%20saya%20..." }, { name: "Facebook", url: "https://www.facebook.com/samira.travelofficial" }, { name: "Youtube", url: "https://www.youtube.com/channel/UChHnjnMy5dleNbhYOnnV6Yg" }], telephone: "+6285720075826" };
 
   // <stdin>
   var { appid, appkey, searchindex: indexName, enabled } = params.algolia;
