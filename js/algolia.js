@@ -1,7 +1,7 @@
 (() => {
   // ns-params:@params
   var baseURL = "/";
-  var params = { defaultcover: "https://www.apple.com.cn/newsroom/images/apple-logo_black.jpg.landing-regular_2x.jpg", email: "zalepik@outlook.com", images: ["site-feature-image.jpg"], showcopyright: true, showmore: true, showrss: true, socialmedia: [{ name: "Instagram", url: "https://www.instagram.com/samira_travel/" }, { name: "Whatsapp", url: "https://api.whatsapp.com/send?phone=6281377886689&text=Assalamu%27alaikum.%20Perkenalkan%20saya%20..." }, { name: "Facebook", url: "https://www.facebook.com/samira.travelofficial" }, { name: "Youtube", url: "https://www.youtube.com/channel/UChHnjnMy5dleNbhYOnnV6Yg" }], telephone: "+6285720075826" };
+  var params = { defaultcover: "", email: "palembangsamiratravel@gmail.com", images: ["site-feature-image.jpg"], showcopyright: true, showmore: true, showrss: true, socialmedia: [{ name: "Instagram", url: "https://www.instagram.com/samiratravel.palembang/" }, { name: "Whatsapp", url: "https://api.whatsapp.com/send?phone=6281377886689&text=Assalamu%27alaikum.%20Perkenalkan%20saya%20..." }, { name: "Facebook", url: "https://www.facebook.com/samira.travelofficial" }, { name: "Youtube", url: "https://www.youtube.com/channel/UChHnjnMy5dleNbhYOnnV6Yg" }], telephone: "081377886689" };
 
   // <stdin>
   var { appid, appkey, searchindex: indexName, enabled } = params.algolia;
